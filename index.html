@@ -10,13 +10,65 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <div class="container">
+    <!-- this is Navbar section -->
+    <nav
+      class="navbar navbar-light justify-content-md-end justify-content-center"
+    >
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- this is content section -->
+    <div class="container-fluid">
+      <!-- imagine every content as a row -->
       <div class="row">
-        <div class="col">
-          <h1>Hewwo world!</h1>
-          <h1>Hewwo world!</h1>
+        <div class="col header">
+          <h4 class="text-white">Hello,</h4>
+          <h1 class="text-dark font-weight-bold">I'm Mawar</h1>
+          <h4 class="text-white">Freelance web Designer & Developer</h4>
+        </div>
+      </div>
+      <div class="row" style="background-color: #313131">
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-sm col-md-4 col-lg-3">
+              <div>
+                <img
+                  src="http://placekitten.com/g/200/250"
+                  alt="kucinggg"
+                  width="100%"
+                />
+              </div>
+            </div>
+            <div
+              class="col-sm col-md pl-3 pt-3 pt-mt-0 text-center text-md-left"
+            >
+              <span class="section-title">About me</span>
+              <p class="mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                possimus vero voluptatum accusamus atque adipisci provident
+                deserunt, dolorem eveniet, neque cumque corrupti nihil
+                cupiditate quo sed a et repellat unde!
+              </p>
+              <div class="mt-5">
+                <a href="#" class="btn px-3 btn-sm btn-warning">Hire me</a>
+                <a href="#" class="btn px-3 btn-sm btn-outline-warning"
+                  >Download CV</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
